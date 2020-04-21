@@ -1,0 +1,136 @@
+$secondary: #1f2235;
+$primary: #ff4a57;
+$tertiary: #23263a;
+$white: #fff;
+
+body {
+  margin-top: 105px;
+  background: $secondary;
+  color: $white;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px $tertiary;
+  opacity: 0.9;
+
+  .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem;
+    font-weight: 400;
+  }
+}
+
+#showcase {
+  position: relative;
+  color: $white;
+  //min-height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: $tertiary;
+  opacity: 0.9;
+
+  .btn {
+    border-radius: 20px;
+  }
+
+  .my-icons {
+    margin-top: 80px;
+  }
+
+  .my-heading {
+    font-size: 4rem;
+  }
+
+  .showcase-img img {
+    height: 500px;
+    color: $white;
+  }
+}
+
+#main-content {
+  position: relative;
+
+  .card {
+    opacity: 0.6 !important;
+    transition: 0.3s !important;
+    transition: all 0.2s;
+
+    .fab {
+      color: $primary !important;
+    }
+
+    .fas {
+      color: $primary !important;
+    }
+
+    :hover {
+      background: $primary !important;
+      opacity: 1;
+      color: $white;
+    }
+  }
+
+  .main-text {
+    width: 700px;
+    padding: 50px;
+    align-items: center;
+    margin: 0 auto;
+
+    p::after {
+      display: block;
+      height: 3px;
+      width: 50px;
+      content: " ";
+      margin: 0 auto;
+      background-color: $primary;
+      margin-top: 30px;
+    }
+  }
+}
+
+#about-main {
+  position: relative;
+
+  .main-text {
+    margin: 0 auto;
+    text-align: center;
+
+    p::after {
+      display: block;
+      height: 3px;
+      width: 50px;
+      content: " ";
+      margin: 0 auto;
+      background-color: $primary;
+      margin-top: 30px;
+    }
+  }
+}
+
+#contact {
+  position: relative;
+
+  .fa-text {
+    font-size: 25px;
+    font-weight: 100;
+    color: $white !important;
+  }
+
+  .fas,
+  .far {
+    color: $primary;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    background-color: $tertiary;
+    color: $white;
+  }
+}
+
+@media (max-width: 768px) {
+  .resp-sm {
+    display: block;
+  }
+}

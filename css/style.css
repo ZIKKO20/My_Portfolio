@@ -1,0 +1,90 @@
+body {
+  margin-top: 105px;
+  background: #1f2235;
+  color: #fff; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #23263a;
+  opacity: 0.9; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem;
+    font-weight: 400; }
+
+#showcase {
+  position: relative;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: #23263a;
+  opacity: 0.9; }
+  #showcase .btn {
+    border-radius: 20px; }
+  #showcase .my-icons {
+    margin-top: 80px; }
+  #showcase .my-heading {
+    font-size: 4rem; }
+  #showcase .showcase-img img {
+    height: 500px;
+    color: #fff; }
+
+#main-content {
+  position: relative; }
+  #main-content .card {
+    opacity: 0.6 !important;
+    transition: 0.3s !important;
+    transition: all 0.2s; }
+    #main-content .card .fab {
+      color: #ff4a57 !important; }
+    #main-content .card .fas {
+      color: #ff4a57 !important; }
+    #main-content .card :hover {
+      background: #ff4a57 !important;
+      opacity: 1;
+      color: #fff; }
+  #main-content .main-text {
+    width: 700px;
+    padding: 50px;
+    align-items: center;
+    margin: 0 auto; }
+    #main-content .main-text p::after {
+      display: block;
+      height: 3px;
+      width: 50px;
+      content: " ";
+      margin: 0 auto;
+      background-color: #ff4a57;
+      margin-top: 30px; }
+
+#about-main {
+  position: relative; }
+  #about-main .main-text {
+    margin: 0 auto;
+    text-align: center; }
+    #about-main .main-text p::after {
+      display: block;
+      height: 3px;
+      width: 50px;
+      content: " ";
+      margin: 0 auto;
+      background-color: #ff4a57;
+      margin-top: 30px; }
+
+#contact {
+  position: relative; }
+  #contact .fa-text {
+    font-size: 25px;
+    font-weight: 100;
+    color: #fff !important; }
+  #contact .fas,
+  #contact .far {
+    color: #ff4a57; }
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact textarea {
+    background-color: #23263a;
+    color: #fff; }
+
+@media (max-width: 768px) {
+  .resp-sm {
+    display: block; } }
